@@ -349,3 +349,304 @@ margin-top: 20px;
     padding-top: 30px;
     color: antiquewhite;
 }
+
+/* ======================== */
+/* 🌐 الميديا كويري للجوال */
+/* ======================== */
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .navbar i {
+        display: none;
+       
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .navbar-a {
+        display: block;
+        margin: 0;
+    }
+
+    .navbar-a a {
+        display: inline-block;
+        margin: 10px 10px auto;
+        font-size: 18px;
+    }
+
+    .Home{
+        height: 500px;
+    }
+
+
+    .Home-img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .Home-p {
+        width: 60%;
+        margin-left: 20%;
+        position: absolute;
+        height: 60%;
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .About-title{
+        text-align: center;
+    }
+    
+    .About-title::after{
+        content: "";
+        width: 9%;
+        height: 5px;
+        background-color: #316eab;
+        margin: 10px 0px;
+        display: block;
+        margin-left: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+  
+    
+    .About-p {
+        width: 90%;
+        margin-left: 5%; 
+        display:inline-block;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 110px;
+        
+        
+    }
+
+     .About-img{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+       
+        display:inline-block;
+        text-align: center;
+        
+        
+        
+    }  
+
+    .div-spes{
+        height: 100px;
+    }
+  
+
+ 
+
+    .Timeline-h1{
+        text-align: center;
+        
+     }
+     
+     .Timeline-h1::after{
+         content: "";
+         width: 9%;
+         height: 5px;
+         background-color: #316eab;
+         margin: 20px 0px;
+         display: block;
+         margin-left: 15px;
+         margin: auto;
+         
+     }
+     
+        
+   
+
+    .Timeline-div,
+    .Timeline-div-2,
+    .Timeline-div-3 {
+        width: 90%;
+        margin: 20px 27px auto;
+        float: none;
+    }
+
+    .Timeline-1,
+    .Timeline-0,
+    .Timeline-2,
+    .Timeline-3 {
+        display: none;
+    }
+
+
+    .contact-title{
+        text-align: center;
+        
+    }
+    
+    .contact-title::after{
+        content: "";
+        width: 7%;
+        height: 5px;
+        background-color: #316eab;
+        margin-top: 10px;
+        display: block;
+        margin-left: 15px;
+        margin: auto;
+    }
+
+    .form-name,
+    .form-phon,
+    .form-email,
+    .form-masg,
+    .form-submet {
+        width: 90%;
+    }
+}
+
+
+/* ============================ */
+/* 📱 التابلت (عرض متوسط) */
+/* ============================ */
+ @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .navbar-a {
+        margin-left: 10%;
+        display: inline-block;
+    
+    }
+    .navbar-a a{
+        display: inline-block;
+        margin: 10px 10px auto;
+        font-size: 22px;
+    }
+
+    .Home-img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    .Home-p {
+        width: 60%;
+        margin-left: 10%;
+        font-size: 50px;
+        position: absolute;
+        height: 90%;
+        padding: 20px;
+        
+    }
+
+    .About-title{
+        text-align: center;
+    }
+    
+    .About-title::after{
+        content: "";
+        width: 9%;
+        height: 5px;
+        background-color: #316eab;
+        margin: 10px 0px;
+        display: block;
+        margin-left: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .About-p {
+        width: 90%;
+        margin-left: 5%; 
+        display:inline-block;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 155px;
+        
+        
+    }
+
+     .About-img{
+        width: 90%;
+        height: auto;
+     margin-left: 5%; 
+        display:inline-block;
+        text-align: center;
+        
+        
+        
+        
+    }  
+
+    /* .About-p, .About-img {
+        width: 45%;
+        height: auto;
+        margin: 20px auto;
+        float: none;
+        display: block;
+    } */
+ 
+
+    .div-spes{
+        height: 60px;
+    }
+    .Timeline-h1{
+        text-align: center;
+        
+     }
+     
+     .Timeline-h1::after{
+         content: "";
+         width: 9%;
+         height: 5px;
+         background-color: #316eab;
+         margin: 20px 0px;
+         display: block;
+         margin-left: 15px;
+         margin: auto;
+         
+     }
+
+    .Timeline-div,
+    .Timeline-div-2,
+    .Timeline-div-3 {
+        width: 80%;
+        margin: 20px 85px auto;
+        float: none;
+    }
+
+    .Timeline-1,
+    .Timeline-0,
+    .Timeline-2,
+    .Timeline-3 {
+        display: none;
+    }
+
+    .contact-title{
+        text-align: center;
+        
+    }
+    
+    .contact-title::after{
+        content: "";
+        width: 7%;
+        height: 5px;
+        background-color: #316eab;
+        margin-top: 10px;
+        display: block;
+        margin-left: 15px;
+        margin: auto;
+    }
+
+
+    .form-name,
+    .form-phon,
+    .form-email,
+    .form-masg,
+    .form-submet {
+        width: 80%;
+    }
+} 
